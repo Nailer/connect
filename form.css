@@ -191,6 +191,15 @@
     margin-top: 10px;
 }
 
+/*----------------- FormUse Styles -------------------*/
+
+.button-form {
+    justify-content: space-between;
+    display: flex;
+}
+
+/*-------x--------- FormUse Styles ----------x--------*/
+
 
 
 
