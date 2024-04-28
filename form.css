@@ -3,6 +3,7 @@
     margin: 0;
     font-family: sans-serif;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .body {
@@ -10,16 +11,25 @@
     justify-content: center;
     height: 110vh;
     align-items: center;
+    overflow: hidden;
     /* margin-bottom: 90px; */
     /* overflow: hidden;  */
     /* background-image: linear-gradient(black, black,rgb(99, 89, 89)); */
 } 
 
+.commms {
+    overflow: hidden;
+}
+
 .containerrr {
     max-width: 450px;
     padding: 5px 38px;
+    top: 50%;
+    /* position: absolute; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
     /* margin: 0 28px; */
-    margin-top: 110px;
+    /* margin-top: 110px; */
     /* margin-bottom: 20px; */
     border-radius: 10px;
     overflow: hidden;
@@ -63,6 +73,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    margin-top: 5px;
     text-transform: uppercase;
     transition: .5s all ease;
 }
@@ -180,6 +191,10 @@
     border-radius: 10px;
     color: rgb(228, 217, 217);
     font-size: 17px;
+}
+
+.button-form > button:active {
+    background-color: red;
 }
 
 #form1, #form2, #form3 {
