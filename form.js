@@ -43,11 +43,7 @@ function showForm(formId) {
     selectedForm.classList.remove('hidden')
 }
 
-// to add styles to buttons when active
 
-function toggleActive(button) {
-    button.classList.toggle('active');
-}
 
 
 
