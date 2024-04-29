@@ -43,6 +43,18 @@ function showForm(formId) {
     selectedForm.classList.remove('hidden')
 }
 
+//  Chat Assist
+function toggleActive(button) {
+    // Remove active class from all buttons
+    var buttons = document.getElementsByClassName('ton-button');
+    for (var i = 0; i < buttons.length; i++) {
+        buttons[i].classList.remove('active');
+    }
+    
+    // Add active class to the clicked button
+    button.classList.add('active');
+}
+
 
 
 

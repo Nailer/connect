@@ -186,15 +186,11 @@
 }
 
 .button-form button {
-    border: 2px blue solid;
-    padding: 10px;
+    border: 1px blue solid;
+    padding: 5px;
     border-radius: 10px;
-    color: rgb(228, 217, 217);
+    color: black;
     font-size: 17px;
-}
-
-.button-form > button:active {
-    background-color: red;
 }
 
 #form1, #form2, #form3 {
@@ -214,11 +210,35 @@
 }
 
 .active {
-    background-color: red;
+    background-color: blue;
     font-size: 20px;
 }
 
 /*-------x--------- FormUse Styles ----------x--------*/
+
+.error-img {
+    width: 3%;
+    margin: 0px 2px;
+}
+
+.error-text {
+    color: gray;
+    font-size: 5px;
+}
+
+/* Chat Assist */
+.button {
+    background-color: blue;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button.active {
+    background-color: #0056b3; /* darker shade of blue */
+}
 
 
 

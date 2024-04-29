@@ -828,7 +828,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 input[type=range] {
     -webkit-appearance: none;
-    -moz-appearance: none;
+    -moz-appearance: none; 
     appearance: none;
     background: #ccc;
     border-radius: 3px;
@@ -1739,7 +1739,7 @@ input[type=range]::-moz-focus-outer {
 
 .csn8e {
     --tw-bg-opacity: 1;
-    background-color: rgb(15 23 42/var(--tw-bg-opacity))
+    background-color: rgb(228, 215, 215);
 }
 
 .cyy7p {
@@ -2008,6 +2008,10 @@ input[type=range]::-moz-focus-outer {
     font-style: italic
 }
 
+.ecosystem {
+    color: black;
+}
+
 .cgum6 {
     letter-spacing: -0.01em
 }
@@ -2022,8 +2026,8 @@ input[type=range]::-moz-focus-outer {
 }
 
 .c0muy {
-    --tw-text-opacity: 1;
-    color: rgb(100 116 139/var(--tw-text-opacity))
+    /* --tw-text-opacity: 1; */
+    color: black
 }
 
 .cy9j6 {
